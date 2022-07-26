@@ -145,6 +145,31 @@ body {
 .hero-subtitle {
   max-width: 487px;
 }
+
+.social-list {
+  display: flex;
+  gap: 8px;
+}
+
+.social-link {
+  fill: rgba(255, 255, 255, 0.78);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 58px;
+  height: 58px;
+  border-radius: 8px;
+}
+
+.social-link:focus,
+.social-link:hover {
+  background-color: var(--accent-color);
+}
+
+.social-link:focus .social-link-icon,
+.social-link:hover .social-link-icon {
+  fill: #fff;
+}
 /* ========== /Hero ========== */
 
 /* ========== Popular tools ========== */
