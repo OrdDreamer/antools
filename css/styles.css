@@ -76,6 +76,20 @@ body {
 .logo:visited {
   color: var(--primary-text-color);
 }
+
+.title {
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 1.3;
+  opacity: 0.9;
+}
+
+.subtitle {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.67;
+  opacity: 0.55;
+}
 /* ========== /Components ========== */
 
 /* ========== Header ========== */
@@ -119,11 +133,66 @@ body {
 }
 /* ========== /Header ========== */
 
-/* ========== Header ========== */
-/* ========== /Header ========== */
+/* ========== Hero ========== */
+.hero-title {
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 1.4;
+  opacity: 0.9;
+  max-width: 600px;
+}
 
-/* ========== Header ========== */
-/* ========== /Header ========== */
+.hero-subtitle {
+  max-width: 487px;
+}
+/* ========== /Hero ========== */
+
+/* ========== Popular tools ========== */
+.popular-tools-title,
+.popular-tools-subtitle {
+  text-align: center;
+}
+
+.popular-tools-subtitle {
+  max-width: 445px;
+  margin: 0 auto;
+}
+
+.tools-title {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 1.5;
+  opacity: 0.78;
+}
+
+.tools-license {
+  font-size: 18px;
+  line-height: 1.5;
+  color: var(--secondary-text-color);
+  opacity: 0.55;
+}
+
+.tools-description {
+  line-height: 1.88;
+  opacity: 0.55;
+}
+
+.tools-visit-button {
+  font-family: 'Poppins';
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.5;
+  padding: 9px 35px;
+  background: none;
+  border: none;
+  border-radius: 8px;
+}
+
+.tools-visit-button:hover,
+.tools-visit-button:focus {
+  background-color: var(--accent-color);
+}
+/* ========== /Popular tools ========== */
 
 /* ========== Header ========== */
 /* ========== /Header ========== */ ;
