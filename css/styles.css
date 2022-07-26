@@ -149,30 +149,34 @@ body {
 
 /* ========== Popular tools ========== */
 .popular-tools-title,
-.popular-tools-subtitle {
+.popular-tools-description {
   text-align: center;
 }
 
-.popular-tools-subtitle {
+.popular-tools-description {
   max-width: 445px;
   margin: 0 auto;
 }
 
-.tools-title {
+.popular-tools-item-link {
+  color: inherit;
+}
+
+.popular-tools-item-title {
   font-weight: 500;
   font-size: 24px;
   line-height: 1.5;
   opacity: 0.78;
 }
 
-.tools-license {
+.popular-tools-item-license {
   font-size: 18px;
   line-height: 1.5;
   color: var(--secondary-text-color);
   opacity: 0.55;
 }
 
-.tools-description {
+.popular-tools-item-description {
   line-height: 1.88;
   opacity: 0.55;
 }
